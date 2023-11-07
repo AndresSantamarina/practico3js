@@ -1,5 +1,7 @@
 //3- Escribir un script que simule el lanzamiento de dos dados. Hacer uso de la función Math.random para obtener números aleatorios entre 1 y 6 para cada uno de los lanzamientos de los dados. Sumar el resultado de lanzar dos dados y anotar en un array el número de apariciones de dicha suma, repitiendo 50 veces esta operación.
 
+//Este ejercicio es el que más me ha costado hasta ahora, porque no se me ocurría cómo simplificar el código, siento que hay muchas repeticiones y variables que se pueden simplificar. La única forma en la que me funcionaba era creando muchos contadores y agregarlos en un array que se llama apariciones. Al final he usado dos arrays, uno para los resultados y otro para las apariciones de cada uno de esos resultados.
+
 const resultados = []
 let contador2 = 0;
 let contador3 = 0;
