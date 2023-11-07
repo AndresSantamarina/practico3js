@@ -1,0 +1,1 @@
+//Ejercicio 2A: Filtrar números pares en un arreglo: Escribe una función que tome un arreglo de números como argumento y devuelva un nuevo arreglo que contenga solo los números pares del arreglo original.
