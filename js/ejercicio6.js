@@ -10,3 +10,13 @@ lado B = 5
 
 Output: 58
 */
+
+function calcularPerimetro(ladoA, ladoB) {
+    const perimetro = 2 * (ladoA + ladoB)
+    document.write(`El perímetro del rectángulo es de ${perimetro}`)
+}
+
+const ladoA = parseInt(prompt("Ingrese el valor del primer lado"))
+const ladoB = parseInt(prompt("Ingrese el valor del segundo lado"))
+
+calcularPerimetro(ladoA, ladoB)
